@@ -89,6 +89,20 @@ p {
                 +
             </button>
         </div>
+        <script>
+            const quantityElement = document.getElementById("quantity");
+            let quantity = parseInt(quantityElement.innerText);
+            
+            function increment() {
+                quantityElement.innerText = ++quantity;
+            
+            }
+            function decrement() {
+                quantityElement.innerText = --quantity;
+            
+            }
+            
+            </script>
 </body>
 
 </html>
